@@ -1,0 +1,40 @@
+﻿{
+    "headers":  [
+                    {
+                        "source":  "/(.*).html",
+                        "headers":  [
+                                        {
+                                            "key":  "Content-Type",
+                                            "value":  "text/html; charset=utf-8"
+                                        }
+                                    ]
+                    },
+                    {
+                        "source":  "/(.*).js",
+                        "headers":  [
+                                        {
+                                            "key":  "Content-Type",
+                                            "value":  "application/javascript; charset=utf-8"
+                                        }
+                                    ]
+                    },
+                    {
+                        "source":  "/(.*).pck",
+                        "headers":  [
+                                        {
+                                            "key":  "Content-Type",
+                                            "value":  "application/octet-stream"
+                                        }
+                                    ]
+                    },
+                    {
+                        "source":  "/(.*).wasm",
+                        "headers":  [
+                                        {
+                                            "key":  "Content-Type",
+                                            "value":  "application/wasm"
+                                        }
+                                    ]
+                    }
+                ]
+}
